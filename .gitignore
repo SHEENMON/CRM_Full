@@ -1,0 +1,51 @@
+# =========================
+# OS / System Files
+# =========================
+.DS_Store
+Thumbs.db
+*.log
+
+# =========================
+# Python / Django
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+env/
+venv/
+CRM_backend/.env       # ignore backend env
+*.pot
+*.py[cod]
+*.egg-info/
+*.pytest_cache/
+*.coverage
+
+# Django specific
+media/
+staticfiles/
+db.sqlite3
+
+# =========================
+# Node / React
+# =========================
+frontend/node_modules/
+frontend/build/
+crm/.env      # ignore frontend env
+npm-debug.log*
+yarn-error.log*
+yarn-debug.log*
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =========================
+# Misc
+# =========================
+*.swp

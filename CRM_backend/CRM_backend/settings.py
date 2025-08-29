@@ -25,10 +25,10 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    "corsheaders.middleware.CorsMiddleware",
     'django.middleware.security.SecurityMiddleware',
     "whitenoise.middleware.WhiteNoiseMiddleware",
     'django.contrib.sessions.middleware.SessionMiddleware',
-    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -38,9 +38,8 @@ MIDDLEWARE = [
 
 # CORS
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",            #
-    "https://crmprj.netlify.app",      
-    "https://crm-backend-vtrn.onrender.com",      
+    "http://localhost:3000",                  
+    "https://crmprj.netlify.app",     
 ]
 
 ROOT_URLCONF = 'CRM_backend.urls'

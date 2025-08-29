@@ -35,9 +35,9 @@ const CustomerRow = ({ customer, onDelete }) => {
       <td className="px-2 py-2 text-sm font-medium text-gray-700">{customer.id}</td>
 
       <td className="px-2 py-2 text-sm text-gray-600 flex items-center gap-2">
-        {customer.photo_url ? (
+        {customer.photo ? (
           <img
-            src={customer.photo_url}
+            src={customer.photo}
             alt={customer.full_name}
             className="w-8 h-8 rounded-full object-cover border"
           />

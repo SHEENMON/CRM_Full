@@ -15,7 +15,7 @@ const CustomerTable = ({ customers, setCustomers }) => {
             <th className="py-2 px-2 text-left text-sm font-medium text-gray-700">Name</th>
             <th className="py-2 px-2 text-left text-sm font-medium text-gray-700">Phone</th>
             <th className="py-2 px-2 text-left text-sm font-medium text-gray-700">Gender</th>
-            <th className="py-2 px-2 text-left text-sm font-medium text-gray-700">Added On</th>
+            <th className="py-2 px-2 text-left text-sm font-medium text-gray-700">Joined On</th>
             <th className="py-2 px-2 text-left text-sm font-medium text-gray-700">Mail</th>
             <th className="py-2 px-2 text-left text-sm font-medium text-gray-700">Status</th>
             <th className="py-2 px-2 text-left text-sm font-medium text-gray-700">Actions</th>
